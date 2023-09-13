@@ -100,6 +100,6 @@ public class FruitsStore {
         BigDecimal price6 = fruitsStore.buyApple(5.0)
                 .add(fruitsStore.buyStrawberry(7.0, 0.8))
                 .add(fruitsStore.buyMango(1.0));
-        System.out.println(fruitsStore.specialOffer(price5));
+        System.out.println(fruitsStore.specialOffer(price6));
     }
 }
