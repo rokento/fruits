@@ -59,7 +59,6 @@ public class FruitsStore {
         return MANGO_PRICE.multiply(new BigDecimal(weight)).setScale(2, RoundingMode.HALF_UP);
     }
 
-
     /**
      * 优惠活动，价格满100元减10元
      * @param price 价格
@@ -103,6 +102,4 @@ public class FruitsStore {
                 .add(fruitsStore.buyMango(1.0));
         System.out.println(fruitsStore.specialOffer(price5));
     }
-
-
 }
